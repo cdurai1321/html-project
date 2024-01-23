@@ -1,0 +1,54 @@
+
+body {
+  background-image: url('/51363.jpg');
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  text-align: center;
+  padding: 30px;
+  background-color: #587e97;
+  color: #fff;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #fff;
+}
+
+.profile-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-details li {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-details li:last-child {
+  border-bottom: none;
+}
+
+h1 {
+  margin: 10px 0 5px 0;
+}
+
+p {
+  margin: 0;
+}
